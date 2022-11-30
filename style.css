@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #f9f9f9;
+}
+
+main {
+    display: flex;
+}
+
+header {
+    padding: 2.6rem 0 2.5rem 5rem;
+}
+
+header h1 {
+    font-family: 'Croissant One', sans-serif;
+    font-size: 2.8rem;
+    background-color: transparent;
+}
+
+main ul {
+    margin-right: 10rem;
+    margin-left: 0.5rem;
+    list-style: none;
+}
+
+main ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: darkblue;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    font-family: Lato, sans-serif;
+}
+
+main .image-container img {
+    width: 80%;
+}
+
+main .about-container {
+    width: 40%;
+    font-family: 'Lato', sans-serif;
+}
+
+main .about-container p {
+    line-height: 1.6rem;
+    font-weight: 10;
+    font-size: 1rem;
+}
+
+main .about-container .profile-pic {
+    text-align: center;
+}
+
+main .email-container {
+    width: 40%;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3rem;
+}
+
+main .email-container #email {
+    color: darkblue;
+    letter-spacing: 0.14rem;
+    padding-left: 5rem;
+    font-size: 1.2rem;
+}
+
+main .about-container .profile-pic img {
+    width: 40%;
+}
+
+footer {
+    margin-top: 2rem;
+    position: absolute;
+    left: 22vw;
+    bottom: 6vh;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    list-style: none;
+}
+
+footer ul li a {
+    color: black;
+    font-size: 1.4rem;
+}
