@@ -63,14 +63,14 @@ main .about-container .profile-pic {
 main .email-container {
     width: 40%;
     font-family: 'Lato', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
 }
 
 main .email-container #email {
     color: darkblue;
     letter-spacing: 0.14rem;
     padding-left: 5rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 main .about-container .profile-pic img {
