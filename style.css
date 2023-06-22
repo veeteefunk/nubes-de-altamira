@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 * {
     margin: 0;
@@ -21,7 +22,7 @@ header {
 }
 
 header h1 {
-    font-family: 'Croissant One', sans-serif;
+    font-family: 'Lora', sans-serif;
     font-size: 2.8rem;
     background-color: transparent;
 }
@@ -43,6 +44,7 @@ main ul li a {
 
 main .image-container img {
     width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 main .about-container {
@@ -56,8 +58,18 @@ main .about-container p {
     font-size: 1rem;
 }
 
+main .about-container p .nubes {
+    color: darkblue;
+}
+
 main .about-container .profile-pic {
     text-align: center;
+}
+
+main .about-container .credits {
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: 10;
 }
 
 main .email-container {
@@ -74,7 +86,14 @@ main .email-container #email {
 }
 
 main .about-container .profile-pic img {
-    width: 40%;
+    width: 46%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+main .about-container .profile-pic img.releases {
+    margin-top: 1rem;
+    width: 52%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 footer {
