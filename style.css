@@ -81,7 +81,7 @@ main .email-container {
 main .email-container #email {
     color: darkblue;
     letter-spacing: 0.14rem;
-    padding-left: 5rem;
+    padding-left: 3rem;
     font-size: 1.1rem;
 }
 
@@ -93,6 +93,18 @@ main .about-container .profile-pic img {
 main .about-container .profile-pic img.releases {
     margin-top: 1rem;
     width: 52%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.email-container .contact-pic {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-container .contact-pic img {
+    width: 70%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
