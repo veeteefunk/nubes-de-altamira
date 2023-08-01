@@ -96,6 +96,11 @@ main .about-container .profile-pic img.releases {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+main .about-container p a {
+    text-decoration: none;
+    color: black;
+}
+
 .email-container .contact-pic {
     margin-top: 2rem;
     display: flex;
